@@ -1,0 +1,137 @@
+
+main {
+    margin: 0px;
+}
+
+h1, p {
+    text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+/* LAYOUT */
+
+.container {
+    width: 400px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+/* HEADER SECTION */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 2em;
+
+}
+
+.header-icon {
+    height: 30px;
+    margin: 0.5em;
+
+}
+
+.header-logo {
+    height: 40px;
+    margin: 0.5em;
+}
+
+/* PICTURE WITH INFO SECTION */
+
+#book-section{
+    margin-top: 0.5em;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.main-name-length, .main-bio{
+    position: absolute;
+    bottom: 45px;
+    left: 16px;
+    margin-bottom: 1em;
+}
+
+.main-bio {
+    bottom: 35px;
+}
+
+.like-badge, .nope-badge {
+    position: absolute;
+    top: 40px;
+    left: 16px;
+    height: 100px;
+    width: 150px;
+    transform: rotate(-30deg);
+    display: none;
+}
+
+.main-avatar{
+    height: 550px;
+    border-radius: 1em;
+    width: 100%;
+}
+
+
+/* button section */
+
+.button-section {
+    margin-top: 0.5em;
+    text-align: center;
+}
+.button-section svg {
+    width: 40px;
+    height: 40px;
+}
+
+#nope-btn, #like-btn {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 33px;
+    margin-left: 1em;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#nope-btn:hover {
+    background-color:#FFE7EF;
+
+}
+
+#like-btn:hover {
+    background: #DBFFF4;
+}
+
+
+/* Book list section */
+.booklist {
+    width: 400px;
+    margin-bottom: 1em;
+}
+
+
+/* Profile section */
+.profile-section {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    height: 550px;
+}
+
+.profile-picture {
+    border-radius: 400px;
+    width: 200px;
+    margin-top: 4em;
+    border: 1px solid black;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-h1, .profile-p {
+    color: black;
+    text-shadow: none;
+}
